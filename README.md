@@ -1,16 +1,51 @@
-# React + Vite
+# Todo list React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Todo List application built with React, Vite, and Material UI. This project allows users to Create, Read, Update, and Delete (CRUD) todo items.
 
-Currently, two official plugins are available:
+## Technologies Used
+- **React (v19)** - For building the user interface.
+- **Vite** - For fast development and building.
+- **Material UI (MUI)** - For a clean and responsive component design.
+- **UUID** - For generating unique IDs for tasks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Getting Started
 
-## React Compiler
+### Prerequisites
+- [Node.js](https://nodejs.org/) installed
+- npm or yarn
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Installation
 
-## Expanding the ESLint configuration
+1. Clone the repository (if you haven't already):
+   ```bash
+   git clone https://github.com/Amany-Elsayed/Todo-CRUD-React.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd todo-list-project
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Running the App Locally
+
+Start the development server:
+```bash
+npm run dev
+```
+The application will be accessible at [http://localhost:5173/](http://localhost:5173/).
+
+### Building for Production
+To bundle the app for production, run:
+```bash
+npm run build
+```
+
+## Features
+- **Create**: Add new tasks.
+- **Read**: View existing tasks in a list.
+- **Update**: Edit contents of your tasks.
+- **Delete**: Remove tasks that are completed.
+- *Responsive Design*: Adapts cleanly to mobile, tablet, and desktop screens.
