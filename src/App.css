@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "myFont";
+  src: url("../fonts/Zain-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "myFont";
+  src: url("../fonts/Zain-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "myFont";
+  src: url("../fonts/Zain-Light.ttf");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "myFont";
+  src: url("../fonts/Zain-Italic.ttf");
+  font-style: italic;
+}
+
+.action-button {
+  transition: all 0.2s !important;
+}
+.action-button:hover {
+  background-color: rgb(189, 189, 189) !important;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.todo-card {
+  transition: all 0.3s !important;
+}
+
+.todo-card:hover {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 600px) {
+  .action-button {
+    padding: 10px !important;
+  }
+
+  .action-button svg {
+    font-size: 2.4rem;
+  }
+}
